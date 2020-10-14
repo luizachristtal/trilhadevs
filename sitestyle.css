@@ -1,0 +1,56 @@
+body {
+    margin: 0px;
+    background-color: black;
+}
+
+.card {
+    background-color: transparent;
+    padding: 400px;
+    width: 400px;
+    border-radius: 20px;
+    margin: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imagem {
+    width: 940px;
+    padding: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+h1 {
+    font-size: 64px;
+    color: #6959CD;
+    font-family: 'Adamina', serif;   
+    font-weight: 200px;
+    margin: 0px;
+    width: 940px;        
+}
+
+h2 {
+    font-size: 20px;
+    color: #CCCCCC;
+    font-weight: normal;    
+    font-family: 'Roboto', sans-serif; 
+    margin-left: 350px; 
+    width: 940px;  
+}
+
+input {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+input:hover {
+    background-color: #00F5FF;
+    cursor: pointer;
+    
+}

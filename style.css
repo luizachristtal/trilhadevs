@@ -1,0 +1,54 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.card1 {
+    background-color: #8968CD;
+    padding: 20px;
+    width: 400px;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.card2 {
+    background-color: #8968CD;
+    padding: 20px;
+    width: 400px;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.card3 {
+    background-color: #8968CD;
+    padding: 20px;
+    width: 400px;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+h1 {
+    color: white;
+    font-family: 'Roboto', sans-serif;    
+}
+
+h2 {
+    color: #00F5FF;
+    font-weight: normal;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+}
+
+input {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+input:hover {
+    background-color: #00F5FF;
+    cursor: pointer;
+}
