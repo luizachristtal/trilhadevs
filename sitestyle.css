@@ -5,22 +5,20 @@ body {
 
 .card {
     background-color: transparent;
-    padding: 400px;
-    width: 400px;
+    padding: 10%;
+    width: 10%;
     border-radius: 20px;
     margin: 10px;
     display: block;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto;   
+    text-align: justify; 
 }
 
-.imagem {
-    width: 940px;
-    padding: 400px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-
+#imagem {
+    position: relative;
+    top: auto;
+    left: 55%;   
 }
 
 h1 {
@@ -29,28 +27,67 @@ h1 {
     font-family: 'Adamina', serif;   
     font-weight: 200px;
     margin: 0px;
-    width: 940px;        
+    width: 940px;           
+}
+
+h1::selection {
+    background-color: rgb(184, 107, 255);
+    color: rgb(255, 255, 255);    
 }
 
 h2 {
     font-size: 20px;
-    color: #CCCCCC;
+    color: #FFE1FF;
     font-weight: normal;    
     font-family: 'Roboto', sans-serif; 
     margin-left: 350px; 
     width: 940px;  
 }
 
-input {
-    background-color: transparent;
-    color: white;
-    border: 1px solid white;
-    padding: 10px;
-    border-radius: 10px;
+h2::selection {
+    background-color: rgb(184, 107, 255);
+    color: rgb(255, 255, 255);    
 }
 
-input:hover {
-    background-color: #00F5FF;
+.middle {
+    position: absolute;
+    top: 85%;
+    left: 57%;
+    transform: translate(-50%,-50%);
+ }
+  .btn {
+    position: relative;
+    display: block;
+    color: white;
+    font-size: 15px;
+    font-style: bold;
+    font-family: 'Roboto'; 
+    text-decoration: none;
+    margin: 30px 0;
+    border: 2px solid #b48ce9;
+    padding: 20px 25px;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 1s all ease;
     cursor: pointer;
-    
-}
+  }
+
+  .btn::before {
+    background: #7a41ff;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+    transition: all 0.6s ease;
+ }
+  
+  .btn1::before {
+    width: 0%;
+    height: 100%;
+  }
+  
+  .btn1:hover::before{
+    width: 100%;
+  }
